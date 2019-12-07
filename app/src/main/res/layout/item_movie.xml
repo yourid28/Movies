@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:background="@color/app_theme_background"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:layout_height="wrap_content"
+    app:cardUseCompatPadding="true"
+    tools:ignore="ContentDescription">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/app_theme_background"
+        android:elevation="@dimen/item_movie_card_elevation"
+        app:cardCornerRadius="@dimen/item_movie_card_corner_radius"
+        app:cardUseCompatPadding="true"
+        tools:ignore="ContentDescription">
+
+        <ImageView
+            android:id="@+id/poster_image"
+            android:layout_width="@dimen/item_movie_width_poster"
+            android:layout_height="@dimen/item_movie_poster_height"
+            android:scaleType="fitXY"
+            tools:src="@tools:sample/backgrounds/scenic" />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/title_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/item_movie_overview_margin"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center_horizontal"
+        android:maxLines="2"
+        android:minLines="2"
+        android:textColor="@color/main_screen_text_color"
+        app:layout_constraintStart_toEndOf="@id/poster_image"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Джокер" />
+
+</LinearLayout>

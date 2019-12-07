@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:yourapp="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_search"
+        android:title="@android:string/search_go"
+        yourapp:showAsAction="always" />
+
+    <item android:id="@+id/action_close"
+        android:icon="@drawable/ic_close"
+        android:visible="false"
+        android:title="@android:string/cancel"
+        yourapp:showAsAction="ifRoom" />
+</menu>

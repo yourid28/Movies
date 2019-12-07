@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--App common sizes-->
+
+    <!--Main screen-->
+
+    <dimen name="view_error_margin_message_text">16dp</dimen>
+    <dimen name="view_error_margin_message_text_size">20sp</dimen>
+    <dimen name="view_error_padding_inner">8dp</dimen>
+
+    <dimen name="item_movie_card_elevation">4dp</dimen>
+    <dimen name="item_movie_card_corner_radius">16dp</dimen>
+    <dimen name="item_movie_overview_margin">8dp</dimen>
+    <dimen name="item_movie_poster_height">250dp</dimen>
+    <dimen name="item_movie_width_poster">160dp</dimen>
+
+    <dimen name="category_text_margin">8dp</dimen>
+    <dimen name="category_text_size">24sp</dimen>
+
+    <dimen name="main_current_date_padding">12dp</dimen>
+    <dimen name="main_padding">4dp</dimen>
+    <dimen name="view_error_padding">16dp</dimen>
+
+    <dimen name="bottom_sheet_main_horizontal_margin">16dp</dimen>
+    <dimen name="bottom_sheet_main_vertical_margin">32dp</dimen>
+    <dimen name="bottom_sheet_indicator_width">32dp</dimen>
+    <dimen name="bottom_sheet_indicator_height">4dp</dimen>
+    <dimen name="bottom_sheet_indicator_margin_top">8dp</dimen>
+
+    <dimen name="empty_search_text_margin">32dp</dimen>
+    <dimen name="empty_search_text_size">20sp</dimen>
+    <dimen name="empty_search_screen_padding">16dp</dimen>
+
+    <!--Movies details screen-->
+
+    <dimen name="movie_details_size_score_layout">48dp</dimen>
+
+    <dimen name="movie_details_height_poster">200dp</dimen>
+    <dimen name="movie_details_height_info_card">280dp</dimen>
+
+    <dimen name="movie_details_width_poster">132dp</dimen>
+
+    <dimen name="movie_details_margin_poster">32dp</dimen>
+    <dimen name="movie_details_margin_title">16dp</dimen>
+    <dimen name="movie_details_margin_start_year">16dp</dimen>
+    <dimen name="movie_details_margin_info_button">16dp</dimen>
+    <dimen name="movie_details_margin_horizontal">16dp</dimen>
+    <dimen name="movie_details_margin_top_year">8dp</dimen>
+    <dimen name="movie_details_margin_top_poster_card">20dp</dimen>
+    <dimen name="movie_details_margin_top_bottom_layout">24dp</dimen>
+    <dimen name="movie_details_margin_top_overview_title">16dp</dimen>
+    <dimen name="movie_details_margin_top_overview">8dp</dimen>
+    <dimen name="movie_details_margin_end_score">40dp</dimen>
+
+    <dimen name="movie_details_padding_info_button">16dp</dimen>
+    <dimen name="movie_details_padding_score">4dp</dimen>
+
+    <dimen name="movie_details_corners_view_poster">8dp</dimen>
+    <dimen name="movie_details_corner_poster_card">16dp</dimen>
+
+    <dimen name="movie_details_elevation">16dp</dimen>
+
+    <dimen name="movie_details_text_size_title">20sp</dimen>
+    <dimen name="movie_details_text_size_year">16sp</dimen>
+    <dimen name="movie_details_text_size_info_button">14sp</dimen>
+    <dimen name="movie_details_text_size_score_label">12sp</dimen>
+    <dimen name="movie_details_text_size_score">22sp</dimen>
+
+    <dimen name="movie_details_z_poster_card">-4dp</dimen>
+
+    <dimen name="item_movie_photo_padding">4dp</dimen>
+
+</resources>
